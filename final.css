@@ -1,0 +1,168 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  .topnav a.brand {
+      font-weight: bold;
+      font-size: 35px;
+      color: rgba(136, 27, 27, 0.651);
+  }
+  .centered {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 40px;
+      color: #332d2d;
+      text-align: left;
+  }
+  .about h2 {
+      color: #686363;
+  }
+  .section-title {
+      font-size: 50px;
+      color: #332d2d;
+  }
+  .card img {
+      border-radius: 24px;
+      padding-top: 8px;
+      width: 90%;
+  }
+  .containerdiv2 {
+      background-color: #ac9279;
+      padding: 4%;
+      color: #d8dfce;
+  }
+  .btn-custom {
+      background-color: #8e6142;
+      color: #dcdcdc;
+      border: none;
+  }
+  .btn-custom:hover {
+      color: #85613e;
+      background-color: #af9d8c;
+
+  }
+
+  .updateSection{
+    background-color: #eae6db;
+    margin: 20%;
+    
+  }
+  .brown{
+    color: #85613e;
+  }
+  footer{
+    background-color: #ac9279;
+    color: #eae6db;
+
+  }
+  form{
+    padding-left: 55%;
+  }
+
+  .navbar-brand{
+    font-size: larger;
+    font-weight: bolder;
+    color: #8e6142;
+
+  }
+  
+  .shopBtn{
+    background-color: #545252;
+    color: #d8dfce;
+  }
+  .shopBtn:hover{
+    background-color: #371600;
+    color: #d8dfce;
+
+  }
+  .card-img-top{
+    height: 350px;
+  }
+
+  .h{
+    height: 200px;
+  }
+
+  .containerdiv {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 120vh; /* Adjust height as needed */
+    gap: 10px; /* Optional: Adds spacing between columns */
+  
+    padding: 4%;
+  }
+  
+  .column1 {
+    background-image: url(img/bed1.jpg);
+    background-size: cover;
+    border-radius: 30px;
+  
+  }
+  .column1P{
+    text-transform: capitalize;
+    color: #abb1a3;
+    font-size: medium;
+    position: relative;
+    top: 90%;
+    left: 5%;
+    width: 60%;
+  }
+  .column2 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    gap: 10px; /* Optional: Adds spacing between rows */
+  }
+  .column2P{
+    text-transform: capitalize;
+    color: #393a38;
+    font-size: medium;
+    position: relative;
+    left: 16%;
+    top: 10%;
+  }
+  .column2P2{
+    text-transform: capitalize;
+    color: #d6e2ca;
+    position: relative;
+    left: 55%;
+    top: 85%;
+  
+  }
+  .column2-row1 {
+    background-image: url(img/sofa\ \(2\).jpg);
+    background-size: cover;
+    border-radius: 30px;
+  
+  
+  }
+  
+  .column2-row2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px; /* Optional: Adds spacing between columns */
+  }
+  
+  .column2-row2-col1 {
+    background-image: url(img/chairr.jpg);
+    background-size: cover;
+    border-radius: 30px;
+  
+  
+  }
+  
+  
+  .column2Btn{
+    background-color: #3e3f3d;
+    width: 155px;
+    padding:8px;
+    border-radius: 10px;
+  }
+  
+  .column2-row2-col2{
+
+    background-image: url(img/chairrr.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    
+  }

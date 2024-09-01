@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Furniture</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="final.css" rel="stylesheet">
+ 
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand px-5" href="#">CozyCorner</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#Contact">Contact Us</a>
+        </li>
+      </ul>
+      <form class="form-inline d-flex">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-custom " type="submit">Search</button>
+      </form>
+      <div class="ps-3 position-relative">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+        </svg>
+        <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+    </div>
+    
+    </div>
+  </nav>
+  <div id="alert-container" class="position-fixed top-0 end-0 p-3" style="z-index: 1050;">
+    <!-- Bootstrap alerts will appear here -->
+</div>
+
+  <div class="container-fluid position-relative">
+    <img src="img/img1.jpg" alt="bg" class="img-fluid w-100">
+    <div class="position-absolute" style="top: 25%; left: 10%; color: #371600;">
+        <h1 class="w-75" style="font-size: 50px;" >Discover comfort, style, and quality craftsmanship</h1>
+        <a href="#shopping" class="btn shopBtn btn-lg mt-3">Shop Now</a>
+    </div>
+</div>
+
+
+    <div  id="about" class="container my-5">
+        <h2 class="text-center first">About Us</h2>
+        <p class="lead text-center">"We believe quality furniture is key to a beautiful, functional home. With a passion for design and craftsmanship, we blend modern aesthetics with timeless elegance."</p>
+        <hr class="border-top my-4">
+    </div>
+
+    <div class="container text-center my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h2 class="display-4">10+</h2>
+                <p>With a decade of expertise, Comfort crafts high-quality bespoke furniture that blends style and functionality.</p>
+            </div>
+            <div class="col-md-4">
+                <h2 class="display-4">800+</h2>
+                <p>Our commitment to customer satisfaction ensures we deliver outstanding service and products that exceed expectations.</p>
+            </div>
+            <div class="col-md-4">
+                <h2 class="display-4">1200+</h2>
+                <p>Comfort has crafted over 1200 unique furniture pieces, from elegant sofas to functional cabinets, with precision and care.</p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="containerdiv">
+      <div class="column1">
+        <p class="column1P"> Our Beds Collection : your sleep space with comfort and style </p>
+      </div>
+      <div class="column2">
+        <div class="column2-row1">
+          
+          <p class="column2P">Browse our sofas collection</p>
+
+        </div>
+        <div class="column2-row2">
+          <div class="column2-row2-col1 ">
+          <p class="column2P2"> our Tables collection</p>
+
+          </div>
+          <div class="column2-row2-col2">
+          <p class="column2P2 column2Btn">See all collection</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section  id="shopping" class="products section-padding container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Interiors by CozyCorner</h2>
+            <span class="line"></span>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="card text-center rounded-5">
+                    <img src="img/chair1..jpg" class=" card-img-top w-100 pt-0" alt="chair">
+                    <div class="card-body">
+                        <p class="price">$1200</p>
+                        <a href="#" class="btn btn-custom btn-lg addBtn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card text-center rounded-5">
+                  <img src="img/chair4.jpg" class=" card-img-top w-100 pt-0" alt="chair">
+                    <div class="card-body">
+                        <p class="price">$1800</p>
+                        <a href="#" class="btn btn-custom btn-lg addBtn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card text-center rounded-5">
+                  <img src="img/item1.jpg" class=" card-img-top w-100 pt-0" alt="chair">
+                    <div class="card-body">
+                        <p class="price">$1500</p>
+                        <a href="#" class="btn btn-custom btn-lg addBtn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card text-center rounded-5">
+                  <img src="img/item2.jpeg" class=" card-img-top w-100 pt-0" alt="chair">
+                    <div class="card-body">
+                        <p class="price">$1350</p>
+                        <a href="#" class="btn btn-custom btn-lg addBtn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      <div class="row g-4 py-5">
+          <div class="col-md-3">
+              <div class="card text-center rounded-5">
+                  <img src="img/item3.jpeg" class=" card-img-top w-100 pt-0" alt="chair">
+                  <div class="card-body">
+                      <p class="price">$3000</p>
+                      <a href="#" class="btn btn-custom btn-lg addBtn">Add to Cart</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center rounded-5">
+                <img src="img/item4.jpeg" class=" card-img-top w-100 pt-0" alt="chair">
+                  <div class="card-body">
+                      <p class="price">$3000</p>
+                      <a href="#" class="btn btn-custom btn-lg addBtn">Add to Cart</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center rounded-5">
+                <img src="img/item5.jpeg" class=" card-img-top w-100 pt-0" alt="chair">
+                  <div class="card-body">
+                      <p class="price">$2500</p>
+                      <a href="#" class="btn btn-custom btn-lg addBtn">Add to Cart</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center rounded-5">
+                <img src="img/item6.jpeg" class=" card-img-top w-100 pt-0" alt="chair">
+                  <div class="card-body">
+                      <p class="price">$1800</p>
+                      <a href="#" class="btn btn-custom btn-lg addBtn">Add to Cart</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+    </section>
+
+    <div class="container-fluid my-5" style="background-color:#eae6db ; position: relative;">
+      <div class="row">
+          <div class="col-md-5">
+              <img src="img/img8.jpeg" alt="Description" class="img-fluid p-5 " style="border-radius: 110px;">
+          </div>
+          <div class="col-md-7 pt-5 mt-5">
+              <h2 style="font-size: 50px;">Craft Your Ideal Furniture Masterpieces Today</h2>
+              <p class="pt-5 ps-2 w-75">Whether it's a sleek wooden chair, a plush sofa, or a functional table with drawers, our platform offers endless possibilities. Start crafting your dream furnilune now and bring your vision to life!</p>
+
+              <a href="" class="btn shopBtn btn-lg mt-3" style="position: absolute; right: 10%; bottom: 10%;">Order Now</a>
+            </div>
+      </div>
+  </div>
+  
+
+    <div class="text-center my-5 updateSection p-5 rounded-5">
+        <h2 class="brown w-75 text-center ms-5 ps-5">To get updates with the latest news and offers</h2>
+        <div class="input-group mb-3 w-50 mx-auto">
+            <input type="text" class="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-custom " type="button" id="button-addon2">Submit</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start " id="Contact">
+
+
+  <!-- Section: Links  -->
+  <section class="pt-3">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Location
+          </h6>
+          <p>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dicta corporis quos illum commodi molestiae, doloribus sed tempore molestias possimus!
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 w-25">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact Us
+          </h6>
+
+            <p class="text-reset">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+              </svg>
+              
+              Phone : +20 (010) 137484674
+            
+            </p>
+
+          
+            <p class="text-reset">Customer Service : Mon - Fri</p>
+            
+         
+            <p class="text-reset">Customer Service : 2 - 8 PM</p>
+         
+          
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+           Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Chairs</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Beds</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Sofa</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Tables</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">emails</h6>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+            </svg>
+            
+            info@example.com
+          </p>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+            </svg>
+                        info@example.com
+          </p>
+
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+</footer>
+<!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="final.js"></script>
+
+</body>
+</html>
